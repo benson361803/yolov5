@@ -13,12 +13,12 @@ root_path = os.getcwd()+'/data'
 xmlfilepath = os.path.join(root_path, 'Annotations')
 txtsavepath = os.path.join(root_path, 'ImageSets')
 labelpath = os.path.join(root_path, 'labels')
+imagepath = os.path.join(root_path, 'images')
 
 
 
 
-
-all_path_list = [xmlfilepath, txtsavepath, labelpath]
+all_path_list = [xmlfilepath, txtsavepath, labelpath,imagepath]
 for path in all_path_list:
     checkdir_exist(path)
 
